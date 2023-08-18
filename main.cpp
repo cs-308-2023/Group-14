@@ -1,6 +1,9 @@
 #include <iostream>
 #include "functions.h"
 using namespace std;
+
+//This program prints hello and calculates factorial of a positive number
+
 int main(){
     bool flg=true;
     print_hello();
