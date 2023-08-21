@@ -9,12 +9,12 @@ int main(){
     print_hello();
     while (flg){
     int n;
-    printf("enter your number");
+    cout << "enter your number " << endl;
     cin>>n;
     if (n<0) {cout<<"-ve enter again"<<endl; continue;}
     flg = false;
     cout<< endl;
-    printf( "The factorial of 5 is ", factorial(5) );
+    cout << "The factorial of 5 is " << factorial(5) << endl;
     return 0;
     }
 }
