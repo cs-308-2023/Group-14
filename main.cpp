@@ -11,7 +11,7 @@ int main(){
     int n;
     cout << "enter your number " << endl;
     cin>>n;
-    if (n<0) {cout<<"-ve enter again"<<endl; continue;}
+    if (n<0) { return -1;}
     flg = false;
     cout<< endl;
     cout << "The factorial of 5 is " << factorial(5) << endl;
