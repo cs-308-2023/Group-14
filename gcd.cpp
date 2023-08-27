@@ -10,3 +10,8 @@ int gcd(int a, int b){
     }
     return gcd;
 }
+
+int gcd_rec(int a,int b){
+    if(a%b==0) return 0;
+    return gcd_rec(b,a%b);
+}
