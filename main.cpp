@@ -5,6 +5,9 @@ using namespace std;
 //This program prints hello and calculates factorial of a positive number
 
 int main(){
+    int x=56;
+    int y=98;
+    cout << "GDC of 56 and 98: " << gcd(x,y) << endl;
     bool flg=true;
     print_hello();
     while (flg){
