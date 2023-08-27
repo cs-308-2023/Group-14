@@ -8,6 +8,7 @@ int main(){
     int x=56;
     int y=98;
     cout << "GDC of 56 and 98: " << gcd(x,y) << endl;
+    cout << "GDC of 56 and 98 using recursive function: " << gcd_rec(x,y) << endl;
     bool flg=true;
     print_hello();
     while (flg){
